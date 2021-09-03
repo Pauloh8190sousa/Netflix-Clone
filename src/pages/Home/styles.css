@@ -1,0 +1,20 @@
+.bgFilme {
+    background: #292525;
+    color: white;
+    font-size: 1.25em;
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    border-radius: 1rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;   
+}
+td, th {
+    border: none;
+    
+}
+
+h1 {
+    color: white;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
