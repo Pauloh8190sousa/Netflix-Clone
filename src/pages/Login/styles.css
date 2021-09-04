@@ -1,0 +1,42 @@
+
+body {
+    background-image: url("../../assets/backgroud.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.gradiente {
+    background: linear-gradient(
+        180deg,
+        rgb(0, 0, 0, 0.69) 0%,
+        rgb(0, 0, 0, 0) 100%
+    );
+}
+header {
+    padding: 40px;
+    
+}
+
+.texto {
+    margin-bottom: 2rem;
+}
+
+.caixa {
+    padding: 1.5rem;
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 0.3rem;
+}
+
+.campos {
+    margin-bottom: 2rem;
+}
+
+.ajuda {
+    margin-left: 33%;
+}
+
+
+header img {
+    height: 60px;
+}
