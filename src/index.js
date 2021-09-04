@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './pages/Home/Home';
+//import Register from './pages/Register/Home';
+
 
 import reportWebVitals from './reportWebVitals';
 
