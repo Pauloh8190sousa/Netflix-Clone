@@ -12,7 +12,7 @@ export default function Home() {
             <div className="container-fluid">
                 <header className="row">
                     <div className="col-2">
-                        <img src={logo}/>
+                        <img src={logo} alt="logo"/>
                     </div>
                     <div className="col-8">
                         <ul className="menu_list">
@@ -39,7 +39,7 @@ export default function Home() {
                 <div className="container-fluid">
                     <div className="row" id="hero_infos">
                         <div className="col-6">
-                            <img className="logo" src={logoODiaboDeCadaDia} />
+                            <img className="logo" src={logoODiaboDeCadaDia} alt="logoDiaboDeCadaDia" />
                             <h1 className="text-white">Top 1 de hoje no Brasil.</h1>
                             <p className="text-white">
                                 Um jovem dedicado a proteger seus entes queridos 
@@ -68,10 +68,27 @@ export default function Home() {
                     <div className="col-12">
                         <ul className="filme_lista">
                             <li className="filme">
-                                <img className="img-fluid" src={djangoImg}/>
+                                <img className="img-fluid image-list" src={djangoImg} alt="django"/>
+                                <div className="filme_info">
+                                    <div className="col-12">
+                                        <a href="#" className="btn-custom-round btn btn-light rounded-circle">
+                                            <span className="mdi mdi-play"></span>
+                                        </a>
+                                        <a href="#" className="btn-custom-round border-white btn rounded-circle opacity-50">
+                                            <span className="mdi mdi-thumb-up text-white"></span>
+                                        </a>
+                                        <a href="#" className="btn-custom-round border-white btn rounded-circle opacity-50">
+                                            <span className="mdi mdi-thumb-down text-white"></span>
+                                        </a>
+                                        <a href="#" className="btn-custom-round border-white btn rounded-circle opacity-50">
+                                            <span className="mdi mdi-plus text-white"></span>
+                                        </a>
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
+                    <p className="descricao_filme">T3:EP2 <text>"Meu Episódio"</text> </p>
                 </section>
             </div>
         </>

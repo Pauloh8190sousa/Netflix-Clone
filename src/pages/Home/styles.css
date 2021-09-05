@@ -112,3 +112,31 @@ p {
     margin-top: 700px;
     margin-left: -8rem;
 }
+
+.image-list {
+    height: 210px;
+    width: 400px;
+    border-radius: 8px;
+    margin-left: 8rem;
+    margin-top: -1px;
+    padding: 5px;
+}
+
+.filme_info {
+    margin-left: 8rem;
+}
+
+.btn-custom-round {
+    padding: 5px 9px !important;
+
+}
+
+.filme_lista {
+    overflow-x: scroll;
+    list-style: none;
+    padding: 20px 0;
+    white-space: nowrap;
+    display: block;
+    border: 1px solid transparent;
+    
+}
