@@ -1,19 +1,103 @@
 div img {
-    height: 3.5rem;
-    margin-top: 3rem;
+    height: 3rem;
+    margin-top: 2rem;
     margin-left: 1rem;
+}
+
+header {
+    padding: 10px;
+    background: linear-gradient(
+        180deg,
+        rgb(0, 0, 0, 0.90) 0%,
+        rgb(0, 0, 0, 0) 100%
+    );
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 2;
 }
 
 .menu_list {
     list-style: none;
-    margin-top: 2.8rem;
+    margin-top: 1.5rem;
     padding-top: 1rem;
 
+}
+
+#hero {
+    height: 700px;
+    background-image: url(../../assets/o-diabo-de-cada-dia-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+#hero::after {
+    content: "";
+    width: 100%;
+    height: 350px;
+    display: block;
+    background: linear-gradient(
+        180deg,
+        rgba(0,0,0,0) 0%,
+        #000000 100%
+    );
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    top: calc(700px - 350px);
+}
+
+#hero_infos {
+    padding: 0;
+    margin-top: 130px;
+    z-index: 3;
+    position: relative;
+    margin-left: 10px;
+}
+
+.btn-custom-white {
+
+    background: white;
+    margin-right: 1rem;
+}
+
+.btn-custom-trasnparent {
+
+    background-color: rgb(255, 255, 255, 0.3);
+    color: #fff;
+}
+
+.btn-custom-trasnparent:hover {
+    color: #fff;
+    opacity: 0.8;
+}
+
+.btn-custom-white:hover {
+    opacity: 0.8;
+}
+
+#hero_infos img.logo {
+    margin-top: -0.1rem;
+    margin-bottom: 2.5rem;
+    width: 900px;
+    height: 200px;
+}
+
+#hero_infos h1 {
+    margin-bottom: 20px;
 }
 
 .menu_list li {
     display: inline-block;
     margin-left: 1rem;
+}
+
+p {
+    font-size: 1.2em;
 }
 
 .menu_list li a {
@@ -22,4 +106,9 @@ div img {
     font-size: 1.2em;
     letter-spacing: 1px;
     text-decoration: none;
+}
+
+.main-content {
+    margin-top: 700px;
+    margin-left: -8rem;
 }
