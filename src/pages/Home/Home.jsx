@@ -1,7 +1,18 @@
 import React from "react";
 import logo from "../../assets/logo.png";
 import logoODiaboDeCadaDia from "../../assets/o-diabo-de-cada-dia-logo.png";
-import djangoImg from "../../assets/django-livre.jpg";
+import ListaFilme from "../../components/ListaFilme";
+import laCasaDePapel from "../../assets/filmes/la-casa-de-papel.jpg";
+import theWitcher from "../../assets/filmes/the-witcher.jpeg";
+import lucifer from "../../assets/filmes/lucifer.jpg";
+import django from "../../assets/filmes/django-livre.jpg";
+import the100 from "../../assets/filmes/the-100-capa.jpg";
+import elite from "../../assets/filmes/elite.jpg";
+import valeria from "../../assets/filmes/valeria.jpg";
+import img365Dias from "../../assets/filmes/365-Dias.jpg";
+import img1922 from "../../assets/filmes/1922.jpg";
+import homemAranhaDeVoltaAoLar from "../../assets/filmes/homem-aranha-de-volta-ao-lar.jpg";
+
 import "./styles.css";
 
 
@@ -61,34 +72,37 @@ export default function Home() {
                     <div className="container">
                         <div className="row">
                             <div className="col-12">
-                                <h5 className="text-white">Populares da Netflix</h5>
+                                <h4 className="text-white">Populares da Netflix</h4>
                             </div>
                         </div>
                     </div>
                     <div className="col-12">
                         <ul className="filme_lista">
-                            <li className="filme">
-                                <img className="img-fluid image-list" src={djangoImg} alt="django"/>
-                                <div className="filme_info">
-                                    <div className="col-12">
-                                        <a href="#" className="btn-custom-round btn btn-light rounded-circle">
-                                            <span className="mdi mdi-play"></span>
-                                        </a>
-                                        <a href="#" className="btn-custom-round border-white btn rounded-circle opacity-50">
-                                            <span className="mdi mdi-thumb-up text-white"></span>
-                                        </a>
-                                        <a href="#" className="btn-custom-round border-white btn rounded-circle opacity-50">
-                                            <span className="mdi mdi-thumb-down text-white"></span>
-                                        </a>
-                                        <a href="#" className="btn-custom-round border-white btn rounded-circle opacity-50">
-                                            <span className="mdi mdi-plus text-white"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
+                            <ListaFilme capa={laCasaDePapel} />
+                            <ListaFilme capa={theWitcher}/>
+                            <ListaFilme capa={lucifer}/>
+                            <ListaFilme capa={django}/>
+                            <ListaFilme capa={the100}/>
                         </ul>
                     </div>
-                    <p className="descricao_filme">T3:EP2 <text>"Meu Episódio"</text> </p>
+                </section>
+                <section>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12">
+                                <h4 className="text-white">Recomendados</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12">
+                        <ul className="filme_lista">
+                        <ListaFilme capa={elite}/>
+                        <ListaFilme capa={valeria} />
+                        <ListaFilme capa={img365Dias} />
+                        <ListaFilme capa={img1922} />
+                        <ListaFilme capa={homemAranhaDeVoltaAoLar} />
+                        </ul>
+                    </div>
                 </section>
             </div>
         </>

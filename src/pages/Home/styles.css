@@ -4,6 +4,37 @@ div img {
     margin-left: 1rem;
 }
 
+.main-content {
+    margin-top: 700px;
+    
+}
+
+.filme_lista {
+    overflow-x: scroll;
+    list-style: none;
+    white-space: nowrap;
+    margin-top: -1.3rem;
+    height: 350px;
+    padding: 20px 0;
+    display: block;
+    border: 1px solid transparent;
+    
+}
+
+section {
+    margin-bottom: -100px;
+    position: relative;
+}
+
+section:hover {
+    z-index: 9;
+}
+
+.filme_lista::-webkit-scrollbar {
+    
+    display: none;
+}
+
 header {
     padding: 10px;
     background: linear-gradient(
@@ -96,10 +127,6 @@ header {
     margin-left: 1rem;
 }
 
-p {
-    font-size: 1.2em;
-}
-
 .menu_list li a {
     color: #fff;
     font-weight: 500;
@@ -108,35 +135,3 @@ p {
     text-decoration: none;
 }
 
-.main-content {
-    margin-top: 700px;
-    margin-left: -8rem;
-}
-
-.image-list {
-    height: 210px;
-    width: 400px;
-    border-radius: 8px;
-    margin-left: 8rem;
-    margin-top: -1px;
-    padding: 5px;
-}
-
-.filme_info {
-    margin-left: 8rem;
-}
-
-.btn-custom-round {
-    padding: 5px 9px !important;
-
-}
-
-.filme_lista {
-    overflow-x: scroll;
-    list-style: none;
-    padding: 20px 0;
-    white-space: nowrap;
-    display: block;
-    border: 1px solid transparent;
-    
-}
