@@ -1,0 +1,25 @@
+.filme_lista {
+    overflow-x: scroll;
+    list-style: none;
+    white-space: nowrap;
+    margin-top: -1.3rem;
+    height: 350px;
+    padding: 20px 0;
+    display: block;
+    border: 1px solid transparent;
+    
+}
+
+section {
+    margin-bottom: -100px;
+    position: relative;
+}
+
+section:hover {
+    z-index: 9;
+}
+
+.filme_lista::-webkit-scrollbar {
+    
+    display: none;
+}

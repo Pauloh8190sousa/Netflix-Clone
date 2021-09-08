@@ -1,0 +1,38 @@
+div img {
+    height: 3rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+header {
+    padding: 10px;
+    background: linear-gradient(
+        180deg,
+        rgb(0, 0, 0, 0.90) 0%,
+        rgb(0, 0, 0, 0) 100%
+    );
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.menu_list {
+    list-style: none;
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+
+}
+
+.menu_list li {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.menu_list li a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
