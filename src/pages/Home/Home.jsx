@@ -12,18 +12,17 @@ import img1922 from "../../assets/filmes/1922.jpg";
 import homemAranhaDeVoltaAoLar from "../../assets/filmes/homem-aranha-de-volta-ao-lar.jpg";
 import Header from "../../components/Header";
 import Hero from "../../components/Hero";
-
-
-import "./styles.css";
+import Modal from "../../components/Modal";
 import Section from "../../components/Section";
 
-
+import "./styles.css";
 
 
 export default function Home() {
 
     return (
         <>
+            <Modal />
             <div className="container-fluid">
                 <Header />
             </div>

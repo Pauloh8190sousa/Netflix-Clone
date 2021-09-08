@@ -1,0 +1,68 @@
+.modal-dialog, .modal-content {
+
+    background: #171717;
+
+}
+
+.modal-dialog {
+    max-width: 600px;
+}
+
+.modal-hero {
+    height: 300px;
+    background-image: url("../../assets/o-diabo-de-cada-dia-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    padding: 40px;
+}
+
+.modal-hero::after {
+
+    content: "";
+    width: 100%;
+    height: 200px;
+    display: block;
+    background: linear-gradient(
+        180deg,
+        rgba(23, 23, 23, 0) 0%,
+        #171717 100%
+    );
+    position: absolute;
+    left: 0;
+    margin-top: -155px;
+    z-index: 1;
+}
+
+.modal-hero img {
+    height: 130px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.modal-hero-infos button:first-child {
+    margin-right: 20px;
+}
+
+.modal-hero-infos {
+    position: relative;
+    z-index: 2;
+}
+
+.filme_descricao {
+
+    font-size: 15px;
+    color: #fff;
+}
+
+.filme_elenco {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.filme_elenco text {
+    color: #fff;
+}

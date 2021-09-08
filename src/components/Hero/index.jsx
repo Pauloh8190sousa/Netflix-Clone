@@ -13,8 +13,8 @@ export default function Hero() {
                         <img className="logo" src={logoODiaboDeCadaDia} alt="logoDiaboDeCadaDia" />
                         <h1 className="text-white">Top 1 de hoje no Brasil.</h1>
                         <p className="text-white">
-                            Um jovem dedicado a proteger seus entes queridos
-                            enfrenta a corrupção e a violência em um canto esquecido de Ohio,
+                            Um jovem dedicado a proteger seus entes queridos enfrenta<br />
+                            a corrupção e a violência em um canto esquecido de Ohio,<br />
                             no período entre a Segunda Guerra Mundial e a Guerra do Vietnã.
                         </p>
                         <button className="btn btn-lg btn-custom-white">

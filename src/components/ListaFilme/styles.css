@@ -3,7 +3,7 @@ text {
 }
 
 p {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 500;
     color: #7E7878;
 }
@@ -33,6 +33,7 @@ p {
 
 .btn-custom-round {
     padding: 5px 9px !important;
+    margin-right: 5px;
 
 }
 

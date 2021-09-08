@@ -7,7 +7,7 @@ export default function ListaFilme({ capa }) {
 
     return (
 
-        <li className="filme">
+        <li className="filme" data-bs-toggle="modal" data-bs-target="#modal-filme">
             <img className="img-fluid capa-img" src={capa} alt="capa" />
             <div className="filme_info">
                 <div className="col-12">
