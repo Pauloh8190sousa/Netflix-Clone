@@ -29,6 +29,9 @@ export default function Home() {
             <Hero />
             <div className="main-content">
                 <Section capa={homemAranhaDeVoltaAoLar} />
+                <Section capa={img1922} />
+                <Section capa={img365Dias} />
+                <Section capa={laCasaDePapel} />
             </div>
         </>
     );

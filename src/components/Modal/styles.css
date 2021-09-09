@@ -66,3 +66,32 @@
 .filme_elenco text {
     color: #fff;
 }
+
+.select-temporada{
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-color: #171717;
+    cursor: pointer;
+}
+
+.select-temporada option {
+    background-color: #3d3b3b;
+}
+
+.lista_episodeos {
+    list-style: none;
+    padding: 0;
+}
+
+.lista_episodeos li {
+    padding: 20px;
+}
+
+.lista_episodeos li p {
+    font-size: 13px;
+}
+
+.lista_episodeos li:hover {
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.05);
+}
