@@ -1,15 +1,12 @@
 import React from "react";
 import "./styles.css";
-import logo from "../../assets/logo.png";
+import Header from "../../components/Header";
 
 export default function Login() {
     return(
         <div className="gradiente">
             <div className="d-flex container-fluid justify-content-between">
-                <header className="row">
-                    <img src={logo} />
-                </header>
-                
+                <Header showMenu={false}/>
             </div>
             <div className="col-4 offset-4 caixa">
                 <h2 className="text-white texto">Entrar</h2>

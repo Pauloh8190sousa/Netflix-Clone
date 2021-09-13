@@ -1,16 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Home from './pages/Home/Home';
-//import Register from './pages/Register/Home';
+import Routes from './routes';
 
 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.Fragment>
-     {/*<Login />*/}
-    <Home />
+     <Routes />
   </React.Fragment>,
   document.getElementById('root')
 );

@@ -1,8 +1,11 @@
 import React from "react";
 import logoImg from "../../assets/o-diabo-de-cada-dia-logo.png";
 import capaFilme from "../../assets/o-diabo-de-cada-dia-bg.jpg";
+import Episodeo from "../Episodeo";
 
 import "./styles.css";
+
+
 
 export default function Modal() {
 
@@ -64,74 +67,7 @@ export default function Modal() {
                             <br />
                             <div className="row">
                                 <ul className="lista_episodeos">
-                                    <li>
-                                        <div className="row">
-                                            <div className="col-1 my-auto text-center">
-                                                <h3 className="text-white">1</h3>
-                                            </div>
-                                            <div className="col-4">
-                                                <img className="img-fluid my-auto" src={capaFilme} />
-                                            </div>
-                                            <div className="col-7">
-                                                <h6 className="text-white">Nome do episódeo</h6>
-                                                <p className="text-muted">
-                                                    Willard Russell (Bill Skarsgård) é um atormentado veterano, sobrevivente de uma carnificina,
-                                                    que não consegue salvar sua bela esposa.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="row">
-                                            <div className="col-1 my-auto text-center">
-                                                <h3 className="text-white">2</h3>
-                                            </div>
-                                            <div className="col-4">
-                                                <img className="img-fluid my-auto" src={capaFilme} />
-                                            </div>
-                                            <div className="col-7">
-                                                <h6 className="text-white">Nome do episódeo</h6>
-                                                <p className="text-muted">
-                                                    Willard Russell (Bill Skarsgård) é um atormentado veterano, sobrevivente de uma carnificina,
-                                                    que não consegue salvar sua bela esposa.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="row">
-                                            <div className="col-1 my-auto text-center">
-                                                <h3 className="text-white">3</h3>
-                                            </div>
-                                            <div className="col-4">
-                                                <img className="img-fluid my-auto" src={capaFilme} />
-                                            </div>
-                                            <div className="col-7">
-                                                <h6 className="text-white">Nome do episódeo</h6>
-                                                <p className="text-muted">
-                                                    Willard Russell (Bill Skarsgård) é um atormentado veterano, sobrevivente de uma carnificina,
-                                                    que não consegue salvar sua bela esposa.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div className="row">
-                                            <div className="col-1 my-auto text-center">
-                                                <h3 className="text-white">4</h3>
-                                            </div>
-                                            <div className="col-4">
-                                                <img className="img-fluid my-auto" src={capaFilme} />
-                                            </div>
-                                            <div className="col-7">
-                                                <h6 className="text-white">Nome do episódeo</h6>
-                                                <p className="text-muted">
-                                                    Willard Russell (Bill Skarsgård) é um atormentado veterano, sobrevivente de uma carnificina,
-                                                    que não consegue salvar sua bela esposa.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </li>
+                                    <Episodeo capaEP={capaFilme} />
                                 </ul>
                             </div>
                         </div>

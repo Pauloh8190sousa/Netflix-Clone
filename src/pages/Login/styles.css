@@ -12,18 +12,14 @@ body {
         rgb(0, 0, 0, 0) 100%
     );
 }
-header {
-    padding: 40px;
-    
-}
 
 .texto {
     margin-bottom: 2rem;
 }
 
 .caixa {
-    padding: 1.5rem;
-    margin-top: 1rem;
+    padding: 1.4rem;
+    margin-top: 6rem;
     background-color: rgba(0, 0, 0, 0.75);
     border-radius: 0.3rem;
 }
@@ -34,9 +30,4 @@ header {
 
 .ajuda {
     margin-left: 33%;
-}
-
-
-header img {
-    height: 60px;
 }
