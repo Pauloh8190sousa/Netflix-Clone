@@ -1,14 +1,14 @@
 div img {
     height: 3rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 1rem;
 }
 
 header {
-    padding: 10px;
+    padding: 20px;
     background: linear-gradient(
         180deg,
-        rgb(0, 0, 0, 0.90) 0%,
+        rgb(0, 0, 0, 0.95) 0%,
         rgb(0, 0, 0, 0) 100%
     );
     position: absolute;
@@ -19,7 +19,7 @@ header {
 
 .menu_list {
     list-style: none;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     padding-top: 1rem;
 
 }

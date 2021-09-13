@@ -68,6 +68,10 @@ export default function Modal() {
                             <div className="row">
                                 <ul className="lista_episodeos">
                                     <Episodeo capaEP={capaFilme} />
+                                    <Episodeo capaEP={capaFilme} />
+                                    <Episodeo capaEP={capaFilme} />
+                                    <Episodeo capaEP={capaFilme} />
+                                    <Episodeo capaEP={capaFilme} />
                                 </ul>
                             </div>
                         </div>

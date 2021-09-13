@@ -24,7 +24,7 @@ export default function Home() {
         <>
             <Modal />
             <div className="container-fluid">
-                <Header />
+                <Header showMenu={true}/>
             </div>
             <Hero />
             <div className="main-content">
