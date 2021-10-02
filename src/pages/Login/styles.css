@@ -1,59 +1,57 @@
 .bg_login {
-    height: 100vh;
-    background-image: url("../../assets/backgroud.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+  height: 100vh;
+  background-image: url("../../assets/backgroud.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-
 .gradiente {
-    background: linear-gradient(
-        180deg,
-        rgb(0, 0, 0, 0.69) 0%,
-        rgb(0, 0, 0, 0.0) 100%
-    );  
-
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 0, 0.69) 0%,
+    rgb(0, 0, 0, 0) 100%
+  );
 }
 
 .texto {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .caixa {
-    padding: 1.4rem;
-    margin-top: 7.5rem;
-    background-color: rgba(0, 0, 0, 0.90);
-    border-radius: 0.3rem;
+  padding: 1.4rem;
+  margin-top: 7.5rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 0.3rem;
 }
 
 .campos::-webkit-input-placeholder {
-    color: rgb(173, 170, 170);
+  color: rgb(173, 170, 170);
 }
 
 .campos::-moz-placeholder {
-    color: rgb(173, 170, 170);
+  color: rgb(173, 170, 170);
 }
 
-.campos:-ms-input-placeholder {
-    color: rgb(173, 170, 170);
+.campos::-ms-input-placeholder {
+  color: rgb(173, 170, 170);
 }
 
 .campos {
-    margin-bottom: 2.5rem;
-    background: rgb(60, 60, 60);
-    border-color: rgb(60, 60, 60);
-    color: white;
-    
+  margin-bottom: 2.5rem;
+  background: rgb(60, 60, 60);
+  border-color: rgb(60, 60, 60);
+  color: white;
 }
 
 .campos:focus {
-    outline: none !important;
-    border: 1px solid rgb(82, 82, 82);
-    background: rgb(60, 60, 60);
-    box-shadow: 0 0 10px #719ECE;
-    color: white;
+  outline: none !important;
+  border: 1px solid rgb(82, 82, 82);
+  background: rgb(60, 60, 60);
+  box-shadow: 0 0 10px #719ece;
+  color: white;
 }
 
 .ajuda {
-    margin-left: 33%;
+  font-size: 14px;
+  margin-left: 35%;
 }
